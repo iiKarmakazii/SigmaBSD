@@ -661,6 +661,7 @@ a:hover {
 
 
 div#lion_image {
+	overflow: hidden;
 	opacity: 1
 }
 
