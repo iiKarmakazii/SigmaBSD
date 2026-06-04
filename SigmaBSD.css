@@ -1042,8 +1042,8 @@ img[src$="stinkbug.png"] {
     font-family: "Indie Flower";
     overflow: auto;
     scrollbar-width: none!important;
-    margin-top:-120px;
-    margin-left: -190px;
+    margin-top:-45px;
+    margin-left: -170px;
     overflow-y:auto;
     overflow-x: hidden;
 }
