@@ -700,8 +700,10 @@ table#player img {
 	border-radius: 50% !important;
 	overflow: hidden
 }
-
-
+#player.table {
+    position: relative !important; 
+    overflow: hidden !important;
+}
 
 
 /* LIODEN LOGO REPLACER */
