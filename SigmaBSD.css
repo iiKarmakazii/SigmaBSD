@@ -669,20 +669,16 @@ div#lion_image {
 table#player img {
 	opacity: 1
 }
-/*code by hok-z #170947*/
-#lion_image:after {
-content:url("");
-    background-image: url("https://iili.io/C3P0qiJ.png");
-position:absolute;
-    width: 260px;
-    height: 260px;
-	left: -10px;
-	top: -4px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 9999;
-}
 
+div#lion_image::after {
+content: "";
+background: url('https://iili.io/C3P0qiJ.png') no-repeat;
+position: absolute;
+transform: translate(-137px, -245px);
+width: 270px;
+height: 265px;
+background-size: cover;
+}
 
 
 /* CIRCULAR LION AND USER AVATAR */
